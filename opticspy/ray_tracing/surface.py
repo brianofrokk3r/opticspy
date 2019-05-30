@@ -14,7 +14,7 @@ class Surface(object):
         self.number = number
         self.radius = radius
         self.glass = glass
-        self.indexlist = glass_funcs.glass2indexlist(wavelength_list,glass)
+        self.indexlist = glass.glass2indexlist(wavelength_list,glass)
         self.thickness = thickness
         self.STO = STO
         self.__diameter__ = __diameter__
