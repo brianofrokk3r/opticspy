@@ -1,7 +1,7 @@
 from __future__ import division as __division__
 import numpy as __np__
 import matplotlib.pyplot as __plt__
-from . import glass_funcs
+from . import glass
 
 # Ray Class
 
